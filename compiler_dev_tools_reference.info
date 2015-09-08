@@ -1,0 +1,40 @@
+# Warning, Do not use Tabs in this file. Use spaces.
+
+
+_DevicePrefix_
+PIC
+dsPIC
+_DevicePrefixEnd_
+
+_Compiler_
+# Format
+# Compiler   Device         Device names supported        Compiler      Modes of      Keyword to detect 
+#            Prefix                                       Command       operation     the operating mode 
+#
+#
+  PICC,      PIC,           10F|10L|10C|12F|12C|12H|12L,  --CHIP=,       NA,           NA                   
+  PICC,      PIC,           16F|16L|16C|16H,              --CHIP=,       NA,           NA                   
+  PICC18,    PIC,           18F|18K|18C|18L,              --CHIP=,       PRO|STD,      NA|ramtest
+  C18,       PIC,           18F|18K|18C|18L,              -P,            NA,           NA
+  C30,       PIC,           24F|24H|24E,                  -MCPU=,        NA,           NA
+  C30,       dsPIC,         30F|33F|33E,                  -MCPU=,        NA,           NA
+  C32,       PIC,           32F|32M,                      -MPROCESSOR=,  NA,           NA
+  XC8,       PIC,           10F|10L|10C|12F|12C|12H|12L,  --CHIP=,       NA,           NA
+  XC8,       PIC,           16F|16L|16C|16H,              --CHIP=,       NA,           NA
+  XC8,       PIC,           18F|18K|18C|18L,              --CHIP=,       NA,           NA
+  XC8-C18,   PIC,           18F|18K|18C|18L,              -P,            NA,           NA
+  XC16,      PIC,           24F|24H|24E,                  -MCPU=,        NA,           NA
+  XC16,      dsPIC,         30F|33F|33E,                  -MCPU=,        NA,           NA
+  XC32,      PIC,           32F|32M,                      -MPROCESSOR=,  NA,           NA
+  
+_CompilerEnd_
+
+_HWTool_
+ICD2
+ICD3
+RealICE
+PK2
+PK3
+SIM
+_HWToolEnd_
+

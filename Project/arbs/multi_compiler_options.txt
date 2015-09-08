@@ -1,0 +1,10 @@
+# Start of XC16 compiler Options
+:XC16
+ROW:-DEBUG
+ROW:-O1
+ROW:-O2
+ROW:-Os
+ROW:-O3
+COL:-O0
+COL:-RELEASE
+:END

@@ -1,0 +1,34 @@
+# This file is used as reference for displaying Error Messasges, based on the Error Code
+
+# Messages related to validating the recieved parameters and existance of necessary files for build.
+
+0101 - Displayed by Script 
+0102 - Unable to find Compiler Path References File
+0103 - Unable to find the Compiler and Device information File
+0104 - Unknown Device Supplied
+0105 - Unknown Options Encountered
+
+0201 - Device Error
+0202 - Compiler Error, Valid Compiler names are PICC, PICC18, C30 and C32
+0203 - Mismatch between Compiler and Device
+
+0301 - Not a valid Project Directory
+
+0401 - No Make files found in the project
+0402 - No Compatible Make files found
+
+0501 - Compiler not found
+
+# This is for RunTime Test Error codes
+
+1100 - mdb executed Successfuly, `TestCase Passed
+1101 - mdb Unable to Locate the specified Debug (elf/cof) file
+1102 - mdb busy to open, used by another process
+1103 - No Variable Name Found "ErrorCount"
+1104 - mdb Hang detected, while executing
+1105 - Programming Failed
+1106 - ErrorCount Variable is not Zero, `Test case Failed
+1107 - Supplied HWTool Name is invalid
+1108 - Unknown problems encountered in mdb execution
+1109 - Unknown Error
+1110 - Unknown Error

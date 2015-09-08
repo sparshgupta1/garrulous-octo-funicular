@@ -1,0 +1,41 @@
+#ROW:--defsym=_min_heap_size=365456,-l"34wgftyer",-l"erer6ytwey",-Dsfhjwr,-Dsyjhsryjry,-I"fhjdhjdgh",-I"dghjhk",-O0
+#ROW:-mips16,-Dsfhjwr,-Dsyjhsryjry,-I"fhjdhjdgh",-I"dghjhk"
+#ROW:[REM]-mips16,
+#ROW:-O2
+#ROW:-O3
+#ROW:-Os,+speed,pro,-N46,-Iskjfjf/dsfgdf/sdfkldf,-Iaslgjouhlnf/efgjn,-Dabcd,-y 84
+
+
+#:XC8
+ROW:+speed,pro
+ROW:-N45
+ROW:-N34
+COL:-N78,-space
+:END
+
+#:XC16
+ROW:-Dxc16
+ROW:-Dewet
+COL:-O1
+COL:-Dsome_include
+:END
+
+:XC32
+ROW:-O0
+ROW:-O2
+ROW:-Os
+COL:-mips16{mcu:pic32mx}|-mmicromips{mcu:pic32mz}
+COL:[REM]-mips16{mcu:pic32mx}|-mmicromips{mcu:pic32mz}
+:END
+
+
+#ROW:[XC8]-y 89
+
+#COL:-y 23,-y 56,--defsym=asdfagfafg,-S
+#COL:-y 45,-y 85,--defsym=sdfvklhdvhj,-s
+#COL:-mips16{mcu:pic32mx}|-mmicromips{mcu:pic32mz}
+#COL:[REM]-mips16{mcu:pic32mx}|-mmicromips{mcu:pic32mz}
+#COL:-y 23
+
+
+
